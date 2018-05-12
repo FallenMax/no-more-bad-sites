@@ -1,0 +1,16 @@
+{
+  "name": "no-more-bad-sites",
+  "version": "0.0.1",
+  "description": "Protect you from bad sites",
+  "scripts": {
+    "clean": "rm -rf no-more-bad-sites.zip",
+    "zip": "zip -r no-more-bad-sites.zip extension",
+    "build": "npm run clean; npm run zip",
+    "test": "echo 'nothing to test'"
+  },
+  "author": "FallenMax@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.64"
+  }
+}
